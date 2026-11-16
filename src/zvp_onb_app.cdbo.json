@@ -1,0 +1,170 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "vendor onboarding",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "objectType": "TABL",
+    "objectName": "ZVP_ONB_APP"
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "nature": "general"
+    },
+    {
+      "name": "APP_UUID",
+      "nature": "general"
+    },
+    {
+      "name": "APPLICATION_ID",
+      "nature": "general"
+    },
+    {
+      "name": "APPLICANT_USER",
+      "nature": "general"
+    },
+    {
+      "name": "STATUS",
+      "nature": "general"
+    },
+    {
+      "name": "CURRENT_STEP",
+      "nature": "general"
+    },
+    {
+      "name": "COMPANY_NAME",
+      "nature": "general"
+    },
+    {
+      "name": "CONTACT_PERSON",
+      "nature": "general"
+    },
+    {
+      "name": "EMAIL",
+      "nature": "general"
+    },
+    {
+      "name": "PHONE",
+      "nature": "general"
+    },
+    {
+      "name": "LEGAL_NAME",
+      "nature": "general"
+    },
+    {
+      "name": "COMPANY_TYPE",
+      "nature": "general"
+    },
+    {
+      "name": "ADDRESS_LINE",
+      "nature": "general"
+    },
+    {
+      "name": "CITY",
+      "nature": "general"
+    },
+    {
+      "name": "REGION",
+      "nature": "general"
+    },
+    {
+      "name": "COUNTRY",
+      "nature": "general"
+    },
+    {
+      "name": "POSTAL_CODE",
+      "nature": "general"
+    },
+    {
+      "name": "GSTIN",
+      "nature": "general"
+    },
+    {
+      "name": "PAN",
+      "nature": "general"
+    },
+    {
+      "name": "MSME_NUMBER",
+      "nature": "general"
+    },
+    {
+      "name": "BANK_NAME",
+      "nature": "general"
+    },
+    {
+      "name": "ACCOUNT_HOLDER",
+      "nature": "general"
+    },
+    {
+      "name": "BANK_ACCOUNT",
+      "nature": "general"
+    },
+    {
+      "name": "IFSC",
+      "nature": "general"
+    },
+    {
+      "name": "SUBMITTED_AT",
+      "nature": "general"
+    },
+    {
+      "name": "REVIEWED_BY",
+      "nature": "general"
+    },
+    {
+      "name": "REVIEWED_AT",
+      "nature": "general"
+    },
+    {
+      "name": "REVIEW_COMMENT",
+      "nature": "general"
+    },
+    {
+      "name": "SUPPLIER",
+      "nature": "general"
+    },
+    {
+      "name": "COMPANY_CODE",
+      "nature": "general"
+    },
+    {
+      "name": "RECONCILIATION_GL",
+      "nature": "general"
+    },
+    {
+      "name": "PAYMENT_TERMS",
+      "nature": "general"
+    },
+    {
+      "name": "CURRENT_LEVEL",
+      "nature": "general"
+    },
+    {
+      "name": "TOTAL_LEVELS",
+      "nature": "general"
+    },
+    {
+      "name": "LOCAL_CREATED_BY",
+      "nature": "general"
+    },
+    {
+      "name": "LOCAL_CREATED_AT",
+      "nature": "general"
+    },
+    {
+      "name": "LOCAL_LAST_CHANGED_BY",
+      "nature": "general"
+    },
+    {
+      "name": "LOCAL_LAST_CHANGED_AT",
+      "nature": "general"
+    },
+    {
+      "name": "LAST_CHANGED_AT",
+      "nature": "general"
+    }
+  ]
+}

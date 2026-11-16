@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSH" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HEAD>
+    <NAME>E9F364AA2F2C848C941BE4FDFBCA34</NAME>
+    <TYPE>HT</TYPE>
+    <DISPLAY_NAME>R3TR G4BA ZUI_VENDORONBREVIEW_O4</DISPLAY_NAME>
+    <DEVCLASS>ZVENDOR_PORTAL</DEVCLASS>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+   </HEAD>
+   <USOBX>
+    <USOBX>
+     <NAME>E9F364AA2F2C848C941BE4FDFBCA34</NAME>
+     <TYPE>HT</TYPE>
+     <OBJECT>Z_VP_RVW</OBJECT>
+     <OKFLAG>Y</OKFLAG>
+    </USOBX>
+   </USOBX>
+   <USOBT>
+    <USOBT>
+     <NAME>E9F364AA2F2C848C941BE4FDFBCA34</NAME>
+     <TYPE>HT</TYPE>
+     <OBJECT>Z_VP_RVW</OBJECT>
+     <FIELD>ACTVT</FIELD>
+     <LOW>03</LOW>
+    </USOBT>
+   </USOBT>
+   <USOBX_EXT>
+    <item>
+     <OBJECT>Z_VP_RVW</OBJECT>
+     <TTEXT>Z_VP_RVW</TTEXT>
+     <OCLSS>CPAE</OCLSS>
+     <OKFLAG>Y</OKFLAG>
+     <DEVCLASS>ZVENDOR_PORTAL</DEVCLASS>
+     <CI_TEXT>Check/Maintain</CI_TEXT>
+     <CH_TEXT>Check</CH_TEXT>
+     <PR_TEXT>Yes</PR_TEXT>
+     <EXCEP>3</EXCEP>
+     <EXCEP_TX>Okay</EXCEP_TX>
+     <EXCEP_ICON>@08@</EXCEP_ICON>
+    </item>
+   </USOBX_EXT>
+   <USOBT_EXT>
+    <item>
+     <OBJECT>Z_VP_RVW</OBJECT>
+     <TTEXT>Z_VP_RVW</TTEXT>
+     <FIELD>ACTVT</FIELD>
+     <LOW>03</LOW>
+    </item>
+   </USOBT_EXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

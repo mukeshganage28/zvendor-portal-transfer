@@ -1,0 +1,13 @@
+@EndUserText.label: 'Vendor and Reviewer Authorization'
+@MappingRole: true
+define role ZR_VP_ONB_BASE
+{
+  grant select on ZI_VP_OnbApplication
+    where
+      ApplicantUser = $session.user
+      or
+      ( ) = aspect pfcg_auth(
+        Z_VP_RVW,
+        ACTVT = '03'
+      );
+}

@@ -1,0 +1,8 @@
+@EndUserText.label: 'Vendor own applications'
+@MappingRole: true
+define role ZR_VP_VENDOR
+{
+  grant select on ZC_VP_OnbApplication
+    where inheriting conditions
+      from entity ZI_VP_OnbApplication;
+}

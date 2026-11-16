@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Vendor onboarding and registration",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Vendor Onboarding"
+  },
+  "ui5AppDetails": {
+    "appId": "vendoronboarding"
+  },
+  "navigation": {
+    "targetMappingId": "ZVENDOR_ONB_UI5R_TM",
+    "semanticObject": "zvendor_onboarding",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZVENDOR_ONB_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Vendor Onboarding"
+      }
+    }
+  ]
+}

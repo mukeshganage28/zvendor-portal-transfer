@@ -1,0 +1,36 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "ldi for vendor review",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_ALV5_DEFAULT",
+    "targetMappingTitle": "vendor review"
+  },
+  "ui5AppDetails": {
+    "appId": "vendorreviewfresh"
+  },
+  "navigation": {
+    "targetMappingId": "ZLDI_VENDOR_REVIEW_TM",
+    "semanticObject": "zvendor_review_fresh",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZLDI_VENDOR_REVIEW_2_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "reuseTextFromApp": true,
+        "title": "",
+        "icon": "sap-icon://to-be-reviewed"
+      }
+    }
+  ]
+}

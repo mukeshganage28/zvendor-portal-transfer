@@ -1,0 +1,34 @@
+// Reviewer projection: exposes ONLY the procurement actions. No create / update / delete,
+// so a reviewer cannot change the vendor's data - only move the status forward.
+// The handlers are the existing ones in ZBP_I_VP_ONBAPPLICATION (no new class needed).
+projection;
+strict ( 2 );
+
+define behavior for ZC_VP_OnbReview alias Application
+use etag
+{
+  use action startReview;
+  use action requestClarification;
+//  use action approveLevel;
+  use action approveApplication;
+  use action rejectApplication;
+
+  use association _Document;
+  use association _History;
+  use association _ApprovalStep;
+}
+
+define behavior for ZC_VP_OnbReviewDoc alias Document
+{
+  use association _Application;
+}
+
+define behavior for ZC_VP_OnbReviewHist alias History
+{
+  use association _Application;
+}
+
+define behavior for ZC_VP_OnbReviewStep alias ApprovalStep
+{
+  use association _Application;
+}

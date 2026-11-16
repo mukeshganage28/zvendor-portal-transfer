@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Review vendor onboarding applications (single reviewer)",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Vendor Review"
+  },
+  "ui5AppDetails": {
+    "appId": "vendorreviewfresh"
+  },
+  "navigation": {
+    "targetMappingId": "ZVENDREVNEW_UI5R_TM",
+    "semanticObject": "zvendor_review_fresh",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZVENDREVNEW_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Vendor Review"
+      }
+    }
+  ]
+}

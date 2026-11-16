@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "ldi vendor onboarding",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_ALV5_DEFAULT"
+  },
+  "ui5AppDetails": {
+    "appId": "vendoronboarding"
+  },
+  "navigation": {
+    "targetMappingId": "ZLDI_VENDOR_ONBOARDING_TM",
+    "semanticObject": "zvendor_onboarding",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZLDI_VENDOR_ONBOARDING_2_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "reuseTextFromApp": true,
+        "title": "",
+        "icon": "sap-icon://supplier"
+      }
+    }
+  ]
+}

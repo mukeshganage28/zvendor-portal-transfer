@@ -1,0 +1,8 @@
+@EndUserText.label: 'Reviewer Projection Authorization'
+@MappingRole: true
+define role ZR_VP_REVIEW
+{
+  grant select on ZC_VP_OnbReview
+    where inheriting conditions
+      from entity ZI_VP_OnbApplication;
+}
